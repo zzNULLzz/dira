@@ -233,9 +233,15 @@ body {
     background: none;
     width: auto;
     border: none;
-    padding: 10px;
     cursor: pointer;
-    border-radius: 50%;
+}
+
+#next img, #prev img {
+    background: none;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
 }
 
 .blur, .faq, .review, .contact-us, .dropdown-content {
