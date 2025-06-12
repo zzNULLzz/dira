@@ -253,6 +253,7 @@ body {
     padding: 30px;
     border-radius: 10px;
     color: rgba(255,255,255,0.7);
+    width: 100%;
 }
 .join {
     background-color: rgba(227,227,227, 1);
