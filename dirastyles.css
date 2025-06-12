@@ -1,5 +1,7 @@
-html {
-  scroll-behavior: smooth;
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 p {
@@ -320,7 +322,7 @@ body {
     justify-content:space-between;
 }
 .faq {
-    max-width: 800px;
+    max-width: 770px;
     color: rgba(0, 0, 0, 1);
     padding: 20px;
     border-radius: 10px;
@@ -420,15 +422,26 @@ footer {
   outline: none;
 }
 
-@media (max-width: 500px) {
-    .steps, .members {
+@media (max-width: 800px) {
+    .steps {
         flex-direction: column;
         align-items: center;
     }
-    .step, .member {
-        width: 90%;
-    }
     .title {
         font-size: 28px;
+    }
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #next img, #prev img {
+        width: 30px;
+    }
+}
+@media (max-width: 500px) {
+    .members {
+        flex-direction: column;
+        align-items: center;
     }
 }
