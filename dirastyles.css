@@ -434,7 +434,17 @@ footer {
         justify-content: space-evenly;
     }
     .title {
-        font-size: 28px;
+        font-size: 40px;
+    }
+    .subtitle {
+        font-size: 25px;
+        margin: 0 20px;
+    }
+    .heading {
+        font-size: 15px;
+    }
+    .text, .info {
+        font-size: 10px;
     }
     .reviews {
         display: flex;
