@@ -100,6 +100,7 @@ body {
     padding: 0;           
 }
 .hero {
+    position: relative;
     background-image: url('Images/Hero.png');
     background-size: cover;
     background-position: center;
@@ -428,7 +429,7 @@ footer {
         align-items: center;
     }
     .hero {
-        height: 500px;
+        height: 900px;
         padding: 20px;
         justify-content: space-evenly;
     }
